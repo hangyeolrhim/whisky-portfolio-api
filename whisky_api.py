@@ -14,8 +14,8 @@ app.add_middleware(
 <<<<<<< HEAD
     allow_origins=["*"],
 =======
-    allow_origins=["https://whisky-ui-connected.vercel.app"],  # ✅ Vercel 프론트 도메인
->>>>>>> d6286c3 (✅ CORS 도메인 whitelist 적용 (Vercel 연동))
+    allow_origins=["https://whisky-ui-connected.vercel.app"],  #Vercel 프론트 도메인
+>>>>>>> d6286c3 (CORS 도메인 whitelist 적용 (Vercel 연동))
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -24,7 +24,7 @@ app.add_middleware(
 <<<<<<< HEAD
 =======
 
->>>>>>> d6286c3 (✅ CORS 도메인 whitelist 적용 (Vercel 연동))
+>>>>>>> d6286c3 (CORS 도메인 whitelist 적용 (Vercel 연동))
 # Static files
 UPLOAD_DIR = "photos"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
