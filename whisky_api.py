@@ -66,3 +66,8 @@ async def upload_photo(file: UploadFile = File(...)):
 @app.options("/{full_path:path}")
 async def preflight_handler(full_path: str):
     return JSONResponse(content={}, status_code=200)
+
+# FastAPI 실행 엔트리포인트
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("whisky_api:app", host="0.0.0.0", port=10000)
